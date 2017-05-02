@@ -1,0 +1,4 @@
+Você começou bem o semestre. Está aprendendo algoritmos tranquilamente. Mas teu professor de cálculo, daquele tipo que respira matemática, come matemática, tudo é matemática e blá, blá, blá... pede um trabalho bem complicado que utilizará conceitos de Funções e Limites. Esse trabalho será desenhar um carro em um programa que desenha retas conforme a função e o limite utilizado. Ele apresenta a implementação do Cristo Redentor. Após ver a complexidade do projeto, você:
+A#Divide as tarefas do grupo, mas se reuni somente uma semana antes da entrega pra fazer o projeto#
+B#Deixa pra fazer o trabalho na última hora#
+C#Inicia os estudos para realizar o projeto desde cedo para que consiga entregar o trabalho#

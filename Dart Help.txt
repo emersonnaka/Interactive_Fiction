@@ -1,0 +1,5 @@
+Leitura de arquivo e entrada do teclado:
+	https://api.dartlang.org/stable/1.22.1/dart-io/dart-io-library.html
+
+Chamada do sistema
+	https://api.dartlang.org/stable/1.22.1/dart-io/Process-class.html
