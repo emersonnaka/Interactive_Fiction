@@ -1,4 +1,8 @@
 import 'dart:io';
+import 'dart:async';
+
+String a;
+bool b = true;
 
 play() async {
 	await Process.run('mocp', []).then((ProcessResult results) {
@@ -12,26 +16,20 @@ play() async {
 	});
 }
 
-main() async {
-
-	String homePath = '/home/';
-	await Process.run('/bin/sh', ['-c', 'echo \$USER']).then((ProcessResult result) {
-		homePath += result.stdout;
-	});
-
-	if(homePath.endsWith("\n")) {
-		homePath = homePath.substring(0, homePath.length - 1);
+onOffMonitor()  {
+	while(b) {
+		Process.run('xset', ['dpms', 'force', 'off']);
+		Process.run('xset', ['dpms', 'force', 'on']);
 	}
+}
 
-	print(homePath);
+main() {
+	new Future(() async {
+		onOffMonitor();
+		});
 
-	Directory dir = new Directory(homePath);
-	dir.exists().then((isThere) {
-		isThere ? print('exists') : print('non-existent');
-	});
-
-	play();
-
-	await Process.run('xset', ['dpms', 'force', 'off']);
-	Process.run('xset', ['dpms', 'force', 'on']);
+	a = stdin.readLineSync();
+	b = false;
+	// Future.wait(thread);
+	// play();
 }
