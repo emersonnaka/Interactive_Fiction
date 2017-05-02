@@ -1,0 +1,4 @@
+O professor de cálculo cancelou o trabalho, porque ele vai ser afastado para fazer o doutorado e diz não gostar de nada pela metade. Por isso, o trabalho foi cancelado. Agora, espera-se que você tenha estudado para Lógica Matemática. Está tendo diversos trabalhos em sala, além das provas que vão ter e um seminário. A primeira prova é cobrado somente tabela verdade. Dado a prova, nota-se que possui vários exercísio. Assim:
+A#Faz apenas os exercício com duas ou três variáveis e que precise saber apenas AND e OR#
+B#Tenta fazer 
+C#
