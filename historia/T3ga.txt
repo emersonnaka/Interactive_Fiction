@@ -1,0 +1,5 @@
+t3ga
+O semestre tá chegando ao fim, ém algmas disciplinas, a tua situação é complicada. Outras estão tranquilas. Porém, para a última prova de Geometria Analítica, você não está conseguindo fazer o último exercício da lista. E a professora já avisou que se não estiver todos os exercícios feitos, ela irá zerar o seu trabalho. Está quase na hora da prova e você ainda não conseguiu fazer o exercício. Você:
+A#Vai pra faculdade e copia o último exercício da lista#p3ga
+B#Procura o exercício na internet e copia#gameOver
+C#Não faz o exercício#

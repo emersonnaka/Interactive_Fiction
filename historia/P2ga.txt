@@ -1,0 +1,5 @@
+p2ga
+Teu método de estudo está funcionando. Você tem tirado boas notas estudando pouco, porém quase todos os dias. A segunda prova de Geometria Analítica tem um conteúdo bem complicado, mas você está com boas notas na disciplina. Você continuou com sua rotina de estudos. No momento da prova, você:
+A#Faz o que acha necessário, por achar que já passou#diversão
+B#Procura fazer o máximo para que seja possível passar na terceira prova#t3ga
+C#Faz tudo para não se preocupar mais com essa disciplina#p3calculo

@@ -1,4 +1,0 @@
-Você e a maioria dos teus amigos não sabiam muita coisa de Algoritmos. Vocês foram mal na prova, mas ainda é possível recuperar a nota. Mas primeiro, é necessário fazer a prova de Geometria Analítica. A professora acabou de terminar um namoro e, infelizmente, tá descontando toda sua tristeza nos alunos. Apesar de lecionar bem, ela passou muito conteúdo para a prova e vários exercícios para estudar e ser entregue no dia da prova. Esses exercícios ajudarão a estudar para a prova. Diante disso:
-A#Vai resolvendo um ou dois exercícios todos os dias#
-B#Faz um grupo de estudo durantes os fins de semana para resolver os exercícios#
-C#Deixa para resolver tudo perto do dia da entrega para não esquecer a matéria#

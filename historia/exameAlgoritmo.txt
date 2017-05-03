@@ -1,0 +1,5 @@
+exameAlgoritmo
+Poucas pessoas conseguiram passar direto em Algoritmos. Você conseguiu obter nota suficiente para poder fazer o exame e ser aprovado na disciplina, caso consiga uma boa noite. Desde o momento que você fica sabendo que poderá fazer o exame, você:
+A#Desiste e não vai fazer o exame#gameOver
+B#Deixa para estudar no ultimo dia#gameOver
+C#Começa a revisar todo o conteúdo para fazer o exame#parabens

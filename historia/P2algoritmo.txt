@@ -1,0 +1,5 @@
+p2algoritmo
+Você mitou na prova. Quase gabaritou ela :D Todo o teu esforço foi recompensado. Na segunda prova de Algoritmos, o clima está para uma tempestade. Na hora da prova começa a chover e há picos de energia. Você:
+A#Força um pouco a vista e faz a prova como pode#t1logica
+B#Pede para o professor adiar a prova#gameOver
+C#Vai sentar perto de uma janela e faz a prova#p2ga

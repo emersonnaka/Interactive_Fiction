@@ -1,0 +1,5 @@
+exameCalculo
+Teus amigos se reuniram para estudar e ainda conseguiram a prova que o professor tinha aplicado para uma outra turma. Eles passaram direto e como não te chamaram pra estudar, você ficou de exame. Um dia antes da prova o professor fala que pode revisar o conteúdo caso os alunos queiram. E também há uma cervejada em uma república no mesmo dia. Assim:
+A#Você não vai na revisão# gameOver
+B#Você só vai na revisão do professor# gameOver
+C#Você vai na revisão do professor e depois vai pra cervejada com ele#exameAlgoritmo

@@ -1,0 +1,5 @@
+exameGa
+Você não obteve nota suficiente para passar direto na disciplina de Geometria Analítica. Contudo, pode ser aprovado caso vá bem no exame. A professora deixou claro que irá cobrar o conteúdo do semestre inteiro. E também disponibiliza as provas do semestre. Você estuda:
+A#Não estuda, devido a grande quantidade de conteúdo para estudar#gameOver
+B#Apenas os exercícios das provas anteriores#exameAlgoritmo
+C#As provas anteriores e mais algumas propriedades que está anotado em seu caderno#parabens

@@ -1,0 +1,5 @@
+t1algoritmo
+Você foi bem abaixo da média na prova de Lógica Matemática, contudo nada está perdido. Ainda há mais uma prova, um seminário e alguns trabalhos. O bicho tá pegando em Algoritmos. Poucos estão entendendo vetor. Para trabalhar o que é visto em sala de aula, o professor passa um trabalho para desenvovler um jogo da velha, podendo variar o tamanho entre 3 x 3 até 99 x 99. Como utiliza somente conceitos de condicional, laço de repetição e funções, você:
+A#Inventa uma desculpa e pede para adiar a entrega do trabalho#gameOver
+B#Pede para o seu amigo fazer o trabalho pra você#p2logica
+C#Faz o trabalho para conseguir apresentar#p2calculo

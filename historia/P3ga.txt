@@ -1,0 +1,5 @@
+p3ga
+Você chegou atrasado para a última prova de GA. Entretanto, você pode entrar na sala para realizar a prova. Como você está nervoso por estar atrasado, ao pegar a prova, percebe que não sabe resolver nenhum dos exercícios. Assim:
+A#Pede para a professora acordá-lo meia hora depois e dorme, para depois fazer a prova#exameAlgoritmo
+B#Tranquiliza e faz a prova#parabens
+C#Chora, etnrega a prova e vai embora#exameGa

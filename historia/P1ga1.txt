@@ -1,0 +1,5 @@
+p1ga1
+Você não conseguiu resolver a prova inteira no momento da aula, devido a quantidade de tabelas verdades que precisou fazer. Ainda assim, você está na média :D Chega a primeira prova de Geometria Analítica, matriz e vetor. Você possui três aulas de cinquenta minutos para fazer a prova. Entretanto, você teve a capacidade de esquecer a calculadora. Desta forma:
+A#Resolve as questões com os números maiores, visto que terá que fazer a conta no papel e possui mais tempo#p2algoritmo
+B#Resolve os problemas de Vetores, já que não precisa de calculadora e entrega a prova#p2logica
+C#Vai resolvendo a prova esperando alguém terminar antes e te emprestar a calculadora#p2calculo

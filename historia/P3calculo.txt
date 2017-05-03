@@ -1,0 +1,5 @@
+p3calculo
+Mais uma vez, cálculo 1 teve o professor substituído. O novo professor já chego para aplicar a última prova. Em poucos dias ensinou todo o material de Integral. Na hora de estudar:
+A#Estuda um dia antes da prova#exameCalculo
+B#Vai pra faculdade estudar com a sua turma#exameAlgoritmo
+C#Não estuda#gameOver

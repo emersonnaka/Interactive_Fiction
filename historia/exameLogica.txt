@@ -1,0 +1,5 @@
+exameLogica
+O professor de Lógica Matemática elaborou alguns requisitos para que um aluno possa fazer o exame da disciplina: entregar todos os trabalhos, fazer o seminário e tirar mais que 50% da nota da última prova. Um dia antes da prova, é dia UFC e vários brasileiros vão lutar. Todos os teus amigos vão sair para assistir as lutas em algum barzinho. Você:
+A#Não sai e resolve todos os exercícios dos slides#exameAlgoritmo
+B#Decora todos os exercícios dos slides e sai com os amigos#gameOver
+C#Apenas sai com os amigos#gameOver

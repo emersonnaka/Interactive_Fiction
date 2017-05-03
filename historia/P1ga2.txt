@@ -1,0 +1,5 @@
+p1ga2
+Você deu sorte, não perdeu tempo fazendo o trabalho de cálculo que foi cancelado \o/. Hoje tem uma provinha sossegada de Geometria Analítica. Contudo, você está indignado com a professora por não ter conseguido convalidar a disciplina com as que você tinha feito anteriormente na outra faculdade. No momento da prova:
+A#Discute com a professora e não faz a prova#p2ga
+B#Tenta fazer a prova já que não estudou, achando que conseguiria a convalidação da disciplina#p2logica
+C#Fica de boa tentando entender a prova#gameOver
