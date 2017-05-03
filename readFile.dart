@@ -1,25 +1,27 @@
 import 'dart:io';
 
-listFiles() {
-	Directory dir = Directory.current;;
+class ReadFile {
 
-	dir.list(recursive:false, followLinks: false).listen((FileSystemEntity entity){
-		print(entity.path);
-		});
-}
+	static Map _roomsMap = new Map();
 
-readFile(String fileName) async {
-	var file = new File(fileName);
-	String contents;
+	static Map listFiles() {
+		Directory dir = new Directory('./historia');
 
-	contents = await file.readAsString();
-	print("All content: $contents");
+		dir.list(recursive:false, followLinks: false).listen((FileSystemEntity entity){
+			print(entity.path);
+			readFile(entity.path);
+			});
 
-	String description = contents.split(":")[0];
-	print("Descrição: $description");
-}
+		return this._roomsMap;
+	}
 
-void main() {
+	static readFile(String fileName) async {
+		var file = new File(fileName);
+		String contents;
 
-	listFiles();
+		contents = await file.readAsString();
+
+		String description = contents.split(":")[0];
+		print("Descrição: $description");
+	}
 }

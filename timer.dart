@@ -10,4 +10,5 @@ void main() {
 
 	Timer test = new Timer(TIMEOUT, handleTimeout);
 	
+	print('Espero que seja antes');
 }

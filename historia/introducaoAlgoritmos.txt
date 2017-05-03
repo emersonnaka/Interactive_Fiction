@@ -1,5 +1,5 @@
 introducaoAlgoritmos
 Algoritmos é uma disciplina que ensina como resolver problemas e como implementá-los. Nessa disciplina também é utilizado uma linguagem de programação para que seja possível resolver o problema computacionalmente. Teu professor é pedante e mostra todas as tuas conquistas na vida acadêmica e profissional. Além de cobrar do aluno que ele saiba programar, também avaliará a melhor solução nos exercícios das avaliações. Ele não se preocupa com o fato de ensinar o aluno a programar bem, apenas leciona aula como você já soubesse os princípios básicos da programação. Devido a raiva que você já pegou dele, já que não concorda com a tua forma de dar aula, além de cobrar coisas que ele não ensina. O que você faz para a primeira prova:
-A#Abandona a disciplina que semestre que vem tem de novo#P1algoritmos
-B#Pede ajuda para algum colega de classe que já sabe um pouco de programação para te ajudar#T1calculo
+A#Abandona a disciplina que semestre que vem tem de novo#p1algoritmo
+B#Pede ajuda para algum colega de classe que já sabe um pouco de programação para te ajudar#t1calculo
 C#Discuti com o professor#gameOver

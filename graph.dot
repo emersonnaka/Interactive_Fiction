@@ -1,0 +1,279 @@
+digraph g {
+graph [
+rankdir = "LR"
+];
+node [
+fontsize = "16"
+shape = "ellipse"
+];
+edge [
+];
+
+"p2algoritmo" [
+label = "<f0> p2algoritmo | <f1> Força um pouco a vista e faz | <f2> Pede para o professor adiar a | <f3> Vai sentar perto de uma"
+shape = "record"
+];
+"p2algoritmo":f1 -> "t3ga":f0 [
+id = 0
+];
+"p2algoritmo":f2 -> "gameOver":f0 [
+id = 1
+];
+"p2algoritmo":f3 -> "p2ga":f0 [
+id = 2
+];
+"diversao" [
+label = "<f0> diversao | <f1> Você vai pra balada com a | <f2> Apenas um barzinho com a | <f3> Não sai e dorme"
+shape = "record"
+];
+"diversao":f1 -> "p3ga":f0 [
+id = 3
+];
+"diversao":f2 -> "exameLogica":f0 [
+id = 4
+];
+"diversao":f3 -> "p3calculo":f0 [
+id = 5
+];
+"p2logica" [
+label = "<f0> p2logica | <f1> Faz o que sabe e vai embora | <f2> No início da prova, escreve | <f3> Conforme necessitado, vai"
+shape = "record"
+];
+"p2logica":f1 -> "diversao":f0 [
+id = 6
+];
+"p2logica":f2 -> "t3ga":f0 [
+id = 7
+];
+"p2logica":f3 -> "p2ga":f0 [
+id = 8
+];
+"p2calculo" [
+label = "<f0> p2calculo | <f1> Não estuda e vai apenas com o | <f2> Aprende o básico da matéria e | <f3> Resolve todas os exercícios"
+shape = "record"
+];
+"p2calculo":f1 -> "t3ga":f0 [
+id = 9
+];
+"p2calculo":f2 -> "diversao":f0 [
+id = 10
+];
+"p2calculo":f3 -> "diversao":f0 [
+id = 11
+];
+"p1algoritmo" [
+label = "<f0> p1algoritmo | <f1> Resolve tudo o que sabe e | <f2> Resolve todos os exercícios e | <f3> Resolve apenas as mais fáceis"
+shape = "record"
+];
+"p1algoritmo":f1 -> "t1ga":f0 [
+id = 12
+];
+"p1algoritmo":f2 -> "t1calculo":f0 [
+id = 13
+];
+"p1algoritmo":f3 -> "t1ga":f0 [
+id = 14
+];
+"t3ga" [
+label = "<f0> t3ga | <f1> Vai pra faculdade e copia o | <f2> Procura o exercício na | <f3> Não faz o exercício"
+shape = "record"
+];
+"t3ga":f1 -> "p3ga":f0 [
+id = 15
+];
+"t3ga":f2 -> "gameOver":f0 [
+id = 16
+];
+"t3ga":f3 -> "":f0 [
+id = 17
+];
+"t1algoritmo" [
+label = "<f0> t1algoritmo | <f1> Inventa uma desculpa e pede | <f2> Pede para o seu amigo fazer o | <f3> Faz o trabalho para conseguir"
+shape = "record"
+];
+"t1algoritmo":f1 -> "gameOver":f0 [
+id = 18
+];
+"t1algoritmo":f2 -> "p2logica":f0 [
+id = 19
+];
+"t1algoritmo":f3 -> "p2calculo":f0 [
+id = 20
+];
+"parabens" [
+label = "<f0> parabens"
+shape = "record"
+];
+"p3ga" [
+label = "<f0> p3ga | <f1> Pede para a professora | <f2> Tranquiliza e faz a prova | <f3> Chora, etnrega a prova e vai"
+shape = "record"
+];
+"p3ga":f1 -> "exameAlgoritmo":f0 [
+id = 21
+];
+"p3ga":f2 -> "parabens":f0 [
+id = 22
+];
+"p3ga":f3 -> "exameGa":f0 [
+id = 23
+];
+"exameGa" [
+label = "<f0> exameGa | <f1> Não estuda, devido a grande | <f2> Apenas os exercícios das | <f3> As provas anteriores e mais"
+shape = "record"
+];
+"exameGa":f1 -> "gameOver":f0 [
+id = 24
+];
+"exameGa":f2 -> "exameAlgoritmo":f0 [
+id = 25
+];
+"exameGa":f3 -> "parabens":f0 [
+id = 26
+];
+"p3calculo" [
+label = "<f0> p3calculo | <f1> Estuda um dia antes da prova | <f2> Vai pra faculdade estudar com | <f3> Não estuda"
+shape = "record"
+];
+"p3calculo":f1 -> "exameCalculo":f0 [
+id = 27
+];
+"p3calculo":f2 -> "exameAlgoritmo":f0 [
+id = 28
+];
+"p3calculo":f3 -> "gameOver":f0 [
+id = 29
+];
+"gameOver" [
+label = "<f0> gameOver"
+shape = "record"
+];
+"exameAlgoritmo" [
+label = "<f0> exameAlgoritmo | <f1> Desiste e não vai fazer o | <f2> Deixa para estudar no ultimo | <f3> Começa a revisar todo o"
+shape = "record"
+];
+"exameAlgoritmo":f1 -> "gameOver":f0 [
+id = 30
+];
+"exameAlgoritmo":f2 -> "gameOver":f0 [
+id = 31
+];
+"exameAlgoritmo":f3 -> "parabens":f0 [
+id = 32
+];
+"introducaoAlgoritmos" [
+label = "<f0> introducaoAlgoritmos | <f1> Abandona a disciplina que | <f2> Pede ajuda para algum colega | <f3> Discuti com o professor"
+shape = "record"
+];
+"introducaoAlgoritmos":f1 -> "p1algoritmo":f0 [
+id = 33
+];
+"introducaoAlgoritmos":f2 -> "t1calculo":f0 [
+id = 34
+];
+"introducaoAlgoritmos":f3 -> "gameOver":f0 [
+id = 35
+];
+"t1ga" [
+label = "<f0> t1ga | <f1> Vai resolvendo um ou dois | <f2> Faz um grupo de estudo | <f3> Deixa para resolver tudo"
+shape = "record"
+];
+"t1ga":f1 -> "p2ga":f0 [
+id = 36
+];
+"t1ga":f2 -> "p2ga":f0 [
+id = 37
+];
+"t1ga":f3 -> "p2logica":f0 [
+id = 38
+];
+"t1calculo" [
+label = "<f0> t1calculo | <f1> Divide as tarefas do grupo, | <f2> Deixa pra fazer o trabalho na | <f3> Inicia os estudos para"
+shape = "record"
+];
+"t1calculo":f1 -> "t1ga":f0 [
+id = 39
+];
+"t1calculo":f2 -> "t1ga":f0 [
+id = 40
+];
+"t1calculo":f3 -> "p1logica":f0 [
+id = 41
+];
+"p1logica" [
+label = "<f0> p1logica | <f1> Faz apenas os exercício com | <f2> Vai fazendo uma tabela | <f3> Faz a tabela verdade com a"
+shape = "record"
+];
+"p1logica":f1 -> "t1algoritmo":f0 [
+id = 42
+];
+"p1logica":f2 -> "p1ga1":f0 [
+id = 43
+];
+"p1logica":f3 -> "p2algoritmo":f0 [
+id = 44
+];
+"exameLogica" [
+label = "<f0> exameLogica | <f1> Não sai e resolve todos os | <f2> Decora todos os exercícios | <f3> Apenas sai com os amigos"
+shape = "record"
+];
+"exameLogica":f1 -> "exameAlgoritmo":f0 [
+id = 45
+];
+"exameLogica":f2 -> "gameOver":f0 [
+id = 46
+];
+"exameLogica":f3 -> "gameOver":f0 [
+id = 47
+];
+"p1ga2" [
+label = "<f0> p1ga2 | <f1> Discute com a professora e | <f2> Tenta fazer a prova já que | <f3> Fica de boa tentando entender"
+shape = "record"
+];
+"p1ga2":f1 -> "p2ga":f0 [
+id = 48
+];
+"p1ga2":f2 -> "p2logica":f0 [
+id = 49
+];
+"p1ga2":f3 -> "gameOver":f0 [
+id = 50
+];
+"p1ga1" [
+label = "<f0> p1ga1 | <f1> Resolve as questões com os | <f2> Resolve os problemas de | <f3> Vai resolvendo a prova"
+shape = "record"
+];
+"p1ga1":f1 -> "p2algoritmo":f0 [
+id = 51
+];
+"p1ga1":f2 -> "p2logica":f0 [
+id = 52
+];
+"p1ga1":f3 -> "p2calculo":f0 [
+id = 53
+];
+"exameCalculo" [
+label = "<f0> exameCalculo | <f1> Você não vai na revisão | <f2> Você só vai na revisão do | <f3> Você vai na revisão do"
+shape = "record"
+];
+"exameCalculo":f1 -> "gameOver":f0 [
+id = 54
+];
+"exameCalculo":f2 -> "gameOver":f0 [
+id = 55
+];
+"exameCalculo":f3 -> "exameAlgoritmo":f0 [
+id = 56
+];
+"p2ga" [
+label = "<f0> p2ga | <f1> Faz o que acha necessário, | <f2> Procura fazer o máximo para | <f3> Faz tudo para não se"
+shape = "record"
+];
+"p2ga":f1 -> "diversao":f0 [
+id = 57
+];
+"p2ga":f2 -> "t3ga":f0 [
+id = 58
+];
+"p2ga":f3 -> "p3calculo":f0 [
+id = 59
+];

@@ -1,35 +1,46 @@
 import 'dart:io';
-import 'dart:async';
 
-String a;
-bool b = true;
+class SystemCall {
 
-play() async {
-	await Process.run('mocp', []).then((ProcessResult results) {
-    	print('Mocp server is running');
-	});
-
-	File music = new File('sons/clock.mp3');
-
-	await Process.start('mocp', ['-l', music.path]).then((Process result) {
-		print("Playing");
-	});
-}
-
-onOffMonitor()  {
-	while(b) {
-		Process.run('xset', ['dpms', 'force', 'off']);
-		Process.run('xset', ['dpms', 'force', 'on']);
+	static openMocp() async {
+		await Process.run('mocp', ['-S']).then((ProcessResult resultadoProcesso) {
+			print('Executando servidor do mocp');
+			});
 	}
-}
 
-main() {
-	new Future(() async {
-		onOffMonitor();
-		});
+	static closeMocp() async {
+		await Process.run('mocp', ['-x']);
+	}
 
-	a = stdin.readLineSync();
-	b = false;
-	// Future.wait(thread);
-	// play();
+	static playClock() async {
+		File music = new File('sons/clock.mp3');
+		await Process.start('mocp', ['-l', music.path]);
+	}
+
+	static playGameOver() async {
+		File music = new File('sons/gameOver.wav');
+		await Process.start('mocp', ['-l', music.path]);
+	}
+
+	static playLaugh() async {
+		File music = new File('sons/hahaha.mp3');
+		await Process.start('mocp', ['-l', music.path]);	
+	}
+
+	static playStorm() async {
+		File music = new File('sons/storm.wav');
+		await Process.start('mocp', ['-l', 'Repeat', music.path]);
+	}
+
+	static pause() async {
+		await Process.start('mocp', ['-P']);
+	}
+
+	static onOffMonitor() async {
+		await Process.run('xset', ['dpms', 'force', 'off']);
+		await Process.run('xset', ['dpms', 'force', 'on']);
+		await Process.run('xset', ['dpms', 'force', 'off']);
+		await Process.run('xset', ['dpms', 'force', 'on']);
+	}
+
 }

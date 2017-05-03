@@ -1,5 +1,5 @@
 p2calculo
 Alguns colegas de classe terminara a prova antes e um deles te emprestou sua calculadora. Contudo, não houve tempo hábil para que resouvesse todos os exercícios. Ainda assim há chances de ser aprovado na disciplina. Porém, temos a segunda prova de Cálculo que será aplicada pela nova professora. Ela tenta explicar da forma mais clara possível e, segundo ela, sua prova é do mesmo nível dos exercícios resolvidos em sala. Diante disso:
 A#Não estuda e vai apenas com o conhecimento adquirido em sala de aula#t3ga
-B#Aprende o básico da matéria e pede ajuda para o restante#t1logica
+B#Aprende o básico da matéria e pede ajuda para o restante#diversao
 C#Resolve todas os exercícios que ela resolveu em sala de aula para estudar para a prova#diversao
