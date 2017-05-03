@@ -24,12 +24,17 @@ class SystemCall {
 
 	static playLaugh() async {
 		File music = new File('sons/hahaha.mp3');
-		await Process.start('mocp', ['-l', music.path]);	
+		await Process.start('mocp', ['-l', music.path]);
 	}
 
 	static playStorm() async {
 		File music = new File('sons/storm.wav');
-		await Process.start('mocp', ['-l', 'Repeat', music.path]);
+		await Process.start('mocp', ['-l', '-o', 'r', music.path]);
+	}
+
+	static playApplause() async {
+		File music = new File('sons/applause.wav');
+		await Process.start('mocp', ['-l', music.path]);
 	}
 
 	static pause() async {

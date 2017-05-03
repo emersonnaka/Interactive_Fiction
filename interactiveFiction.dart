@@ -85,6 +85,11 @@ class InteractiveFiction {
 				print('${c.getOption()} - ${c.getResult()}');
 			}
 
+			// if(currentRoom.getName().substring(0, 1) == 'p') {
+			// 	print("TOCA");
+			// 	SystemCall.playClock();
+			// }
+
 			print('Opção: ');
 			option = stdin.readLineSync().toUpperCase();
 			if(currentRoom.containsOption(option)) {
@@ -98,27 +103,30 @@ class InteractiveFiction {
 				SystemCall.playGameOver();
 				print(currentRoom.getDescription());
 			} else if(currentRoom.getName() == 'parabens') {
-				SystemCall.playStorm();
+				SystemCall.playApplause();
 				print(currentRoom.getDescription());
 			}
+			//  else if(currentRoom.getName() == 'p1logica') {
+			// 	SystemCall.playLaugh();
+			// }
 		}
 	}
 
-	void descriptionSound(String nameRoom) {
-		if(nameRoom == 'p1logica') {
+	// void descriptionSound(String nameRoom) {
+	// 	if(nameRoom == 'p1logica') {
 			
-		} else if(nameRoom == 'p2algoritmo') {
-			SystemCall.playStorm();
-			SystemCall.onOffMonitor();
-		}
-	}
+	// 	} else if(nameRoom == 'p2algoritmo') {
+	// 		SystemCall.playStorm();
+	// 		SystemCall.onOffMonitor();
+	// 	}
+	// }
 
-	void optionSound(String nameRoom) {
-		if(nameRoom.substring(0, 1) == 'p') {
-			SystemCall.playClock();
-			print('Era pra estar tocando');
-		}
-	}
+	// void optionSound(String nameRoom) {
+	// 	if(nameRoom.substring(0, 1) == 'p') {
+	// 		SystemCall.playClock();
+	// 		print('Era pra estar tocando');
+	// 	}
+	// }
 
 	Map getRoomsMap() => this._roomsMap;
 }
