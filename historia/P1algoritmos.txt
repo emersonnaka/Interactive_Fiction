@@ -1,4 +1,4 @@
 Após de faltar em algumas aulas, você descobre que o professor de Algoritmos foi substituído. Na primeira aula que você vai, o professor questiona porquê não estava indo antes e fala como será a disciplina. Ele cita que não cobrará a melhor solução de um problema, por achar injusto cobrar algo que os alunos não saibam. Além disso, esse professor se preocupa mais em ensinar o aluno a encontrar soluções para um problema. Dadas as circunstâncias você continua a ir nas aulas até a primeira prova. Na prova:
-A#Resolve tudo o que sabe e entrega a prova#
-B#Resolve todos os exercícios e depois revisa-os para ver que estão corretos#
-C#Resolve apenas as mais fáceis e vai embora#
+A#Resolve tudo o que sabe e entrega a prova#T1ga1
+B#Resolve todos os exercícios e depois revisa-os para ver que estão corretos#T1calculo
+C#Resolve apenas as mais fáceis e vai embora#T1ga1
