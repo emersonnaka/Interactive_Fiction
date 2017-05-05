@@ -1,3 +1,0 @@
-Turn on/off monitor command line:
-	xset dpms force on
-	xset dpms force off
