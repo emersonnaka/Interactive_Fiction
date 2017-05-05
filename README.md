@@ -32,4 +32,4 @@ systemCall.dart has system call to play sounds in mocp and turn on/off monitor. 
 Student
 -------
 Emerson Yudi Nakashima
-Academic at the Federal Technological University of Parana
+Academic at the Federal Technological University of Parana - Campo Mourão, PR, Brazil
